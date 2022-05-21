@@ -1,0 +1,127 @@
+body {
+margin:0;
+}
+
+#container {
+    width:100%;
+    height:100vh;
+    background: url('mar.jpg');
+    background-size: cover;
+    }
+
+#overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity: 70%;
+    }
+header{
+    display:block;
+}
+#bossimg{
+    background: url('letrabranca.png');
+    display:flex;
+    justify-content: center;
+    width: 140px;
+    height:160px;
+    margin: 0 auto;
+    
+}
+    #boss{
+        width: 200px;
+        height: 200px;
+        margin: 0px;
+    }
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size:45px;
+    text-align: center;
+    padding-top: 20px;
+    margin:0 0 0.4em;
+    
+
+}    
+code{
+    font-family: monospace;
+}
+.text-size
+    {
+        font-size:25px;
+        padding-top: 20px;
+        color:whitesmoke;
+        text-align: center;
+        font-family:'roboto', monospace;
+    }   
+
+    .social-icons {
+        width: 95%;
+        height: 100px;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      .social-icons ul {
+        list-style: none;
+      }
+      
+      .social-icons ul li{
+        display: inline-block;
+        margin-inline-start: 5px;
+        margin: 5px;
+        
+     }
+    
+    
+ 
+  
+      
+      .social-icons ul li img {
+        width: 40px;
+        height: 40px;
+        
+
+     }
+     button{
+         border-radius: 15px;
+
+     }
+     .social-icons ul li button:hover {
+        background-color: rgb(31, 101, 192);
+       
+    }
+    #telegram {
+        background-color: whitesmoke;
+        opacity: 80%;
+        border-radius: 100%;
+        
+  }
+      
+      #linkdin {
+          background-color: whitesmoke;
+          opacity: 80%;
+          border-radius: 100%;
+          
+  
+      }
+  
+      #github {
+          background-color: whitesmoke;
+          opacity: 80%;
+        border-radius: 100%;
+       }
+
+         
+         
+    
+        
+
+    
+
