@@ -93,6 +93,9 @@ code{
          border-radius: 15px;
 
      }
+
+.social-icons ul li button { transition: color .7s;
+}
      .social-icons ul li button:hover {
         background-color: rgb(31, 101, 192);
        
