@@ -10,13 +10,16 @@ margin:0;
     }
 
 #overlay{
-    position:absolute;
+    position: flex;
     top:0;
     left:0;
     height:100%;
     width:100%;
-    background-color: black;
-    opacity: 70%;
+    background:linear-gradient(-40deg, #8f0bb8, #085078, #4ca59b, #1fa194 );
+    background-size:300% 300%;
+    opacity: 90%;
+    flex-direction: column;
+    animation: backgroundTransition 8s ease-in-out infinite;
     }
 header{
     display:block;
@@ -80,10 +83,7 @@ code{
      }
     
     
- 
-  
-      
-      .social-icons ul li img {
+     .social-icons ul li img {
         width: 40px;
         height: 40px;
         
@@ -93,22 +93,19 @@ code{
          border-radius: 15px;
 
      }
-
-.social-icons ul li button { transition: color .7s;
-}
      .social-icons ul li button:hover {
-        background-color: rgb(31, 101, 192);
+        background-color: #2eada1;
        
     }
     #telegram {
-        background-color: whitesmoke;
+        background-color: transparent;
         opacity: 80%;
         border-radius: 100%;
         
   }
       
       #linkdin {
-          background-color: whitesmoke;
+          background-color: transparent;
           opacity: 80%;
           border-radius: 100%;
           
@@ -116,10 +113,22 @@ code{
       }
   
       #github {
-          background-color: whitesmoke;
+          background-color: transparent;
           opacity: 80%;
         border-radius: 100%;
        }
+
+       @keyframes backgroundTransition {
+        0% { 
+            background-position: 0% 80%;
+        }
+        50% {
+            background-position: 80% 100%;
+        }
+        100% {
+            background-position: 0% 90%;
+        }
+    }
 
          
          
