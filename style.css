@@ -73,6 +73,7 @@ code{
       
       .social-icons ul {
         list-style: none;
+        padding-inline-start: 0;
       }
       
       .social-icons ul li{
